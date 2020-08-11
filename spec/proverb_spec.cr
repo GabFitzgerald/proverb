@@ -7,7 +7,7 @@ describe "Proverb" do
     proverb.should eq([] of String)
   end
 
-  pending "one piece" do
+  it "one piece" do
     proverb = Proverb.recite(["nail"])
     proverb.should eq(["And all for the want of a nail."])
   end
